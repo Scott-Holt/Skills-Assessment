@@ -6,3 +6,28 @@ $main-font:'Montserrat', sans-serif;
 
 $text-shadow:4px 3px 14px #000000b8;
 
+$bp-1:1711px;
+$bp-2:1873px;
+$bp-3:1918px;
+
+@mixin bp-1{
+    @media(max-width:#{$bp-1}) {
+        @content;
+    }
+}
+
+
+@mixin bp-2{
+    @media(min-width:#{$bp-2}) {
+        @content;
+    }
+}
+
+@mixin bp-3{
+    @media(min-width:#{$bp-3}) {
+        @content;
+    }
+}
+
+
+

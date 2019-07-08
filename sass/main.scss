@@ -15,9 +15,15 @@
 	box-sizing: border-box;
 }
 
+html{
+	display: flex;
+    justify-content: center;
+}
+
   
   body {
 	min-height: 100%;
+	max-width:1920px;
 	font-family:$main-font;
   }  
 
@@ -88,12 +94,20 @@ header{
 ///////////VIDEO///////////////////////////// 
 
 iframe{
+    left: 44px;
     display: inline-block;
     position: relative;
     bottom: -28em;
     width: 750px;
-    height: 427px;
-    border: 1px solid black;
+	height: 427px;
+	
+	@include bp-2{
+		left: 6px;
+	}
+
+	@include bp-3{
+		left: 0px;
+	}
 }
 
 
@@ -110,7 +124,12 @@ main{
 	height:754px;
 	// justify-content: flex-start;
 
+	@include bp-1{
+		flex-direction:column;
+	}
+
 	.col-left{
+		width:50%;
 
 		.col1{
 			justify-content:flex-start;
@@ -120,6 +139,10 @@ main{
 
 			.img1{
 				margin-top:1em;
+
+				@include bp-1{
+					margin-top: 25em;
+				}
 			}
 
 			.image-row{
@@ -159,16 +182,25 @@ main{
     flex-direction: column;
     align-items: flex-start;
 	justify-content: flex-end;
+	width:50%;
 
 	.splatter{
-		position: absolute;
-		top: 60em;
-		right: 0em;
-		height: 70%;
-		z-index: -1;
-		filter: invert(95%);
-		-webkit-filter: invert(95%);
-}
+    position: relative;
+    /* top: 25em; */
+    bottom: -24em;
+    right: -4em;
+    /* height: 70%; */
+    z-index: -1;
+    filter: invert(95%);
+    -webkit-filter: invert(95%);
+		// position: absolute;
+		// top: 60em;
+		// right: 0em;
+		// height: 70%;
+		// z-index: -1;
+		// filter: invert(95%);
+		// -webkit-filter: invert(95%);
+	}
 	
 
 		.container{
@@ -181,6 +213,10 @@ main{
 		.section-header{
 			// border: 1px solid black;
 			margin-bottom: 2em;
+
+			@include bp-1{
+				margin-top: 7em;
+			}
 
 			h1{
 				color:$black;

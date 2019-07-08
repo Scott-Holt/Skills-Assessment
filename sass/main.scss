@@ -119,15 +119,9 @@ main{
 		flex-direction:column;
 	}
 
-	.active{
-		transform: translateX(0%) scale(100);
-		opacity:1;
-	}
 
 	.col-left{
 		width:50%;
-		transform: translateX(-30%) scale(0.95);
-		opacity:0;
 
 			
 		.col1{

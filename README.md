@@ -6,5 +6,5 @@ The biggest task for me was the cluster of images and how to lay those out prope
 
 Last task was to create the function to change the hero image with every reload of the page. Easy enough. Ran into a simple syntax bug that had me stuck for a minute. 
 
-With my limited knowledge on the topic of slide-in animations, I wasn't properly able to compose a solution to that task in the time I allotted for myself. 
+With my limited knowledge on the topic of slide-in animations, I wasn't properly able to compose a solution for that task in the time I allotted for myself. 
 

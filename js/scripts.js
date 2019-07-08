@@ -9,7 +9,7 @@ function changeHeader() {
     console.log(hero.style.backgroundimage);
 }
 
-hero.addEventListener('load', changeHeader())
+hero.addEventListener('load', changeHeader());
 
 
 

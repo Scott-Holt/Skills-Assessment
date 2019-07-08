@@ -77,8 +77,13 @@ main {
   @media (max-width: 1711px) {
     main {
       flex-direction: column; } }
+  main .active {
+    transform: translateX(0%) scale(100);
+    opacity: 1; }
   main .col-left {
-    width: 50%; }
+    width: 50%;
+    transform: translateX(-30%) scale(0.95);
+    opacity: 0; }
     main .col-left .col1 {
       justify-content: flex-start;
       flex-direction: column; }
@@ -111,10 +116,8 @@ main {
     width: 50%; }
     main .col-right .splatter {
       position: relative;
-      /* top: 25em; */
       bottom: -24em;
       right: -4em;
-      /* height: 70%; */
       z-index: -1;
       filter: invert(95%);
       -webkit-filter: invert(95%); }

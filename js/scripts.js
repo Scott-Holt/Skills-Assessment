@@ -1,3 +1,5 @@
+
+//changes header image on load
 const headerImages = ['../assets/HERO 1.jpg', '../assets/HERO 2.jpg', '../assets/HERO 3.jpg'];
 const hero = document.getElementById('hero-img');
 
@@ -8,3 +10,6 @@ function changeHeader() {
 }
 
 hero.addEventListener('load', changeHeader())
+
+
+

@@ -1,14 +1,6 @@
 @import './variables.scss';
 
 
-// Delete Me and Good Luck!
-// body
-// 	height: 100vh
-// 	display: flex 
-// 	align-items: center 
-// 	justify-content: center 
-// 	text-align: center
-
 *{
 	margin: 0;
 	padding:0;
@@ -122,20 +114,25 @@ iframe{
 
 main{
 	height:754px;
-	// justify-content: flex-start;
 
 	@include bp-1{
 		flex-direction:column;
 	}
 
+	.active{
+		transform: translateX(0%) scale(100);
+		opacity:1;
+	}
+
 	.col-left{
 		width:50%;
+		transform: translateX(-30%) scale(0.95);
+		opacity:0;
 
+			
 		.col1{
 			justify-content:flex-start;
-			flex-direction: column;
-			// border: 1px solid blue;
-
+			flex-direction: column;					
 
 			.img1{
 				margin-top:1em;
@@ -147,7 +144,6 @@ main{
 
 			.image-row{
 				width: 100%;
-				// border:1px solid green;
 				justify-content: space-between;
 				margin-top:1em;
 			}
@@ -155,7 +151,6 @@ main{
 
 		.col2{
 			flex-direction: column;
-			// border: 1px solid red;
 			margin-left: 1em;
 			height: 100%;
 			justify-content: flex-end;
@@ -176,7 +171,6 @@ main{
 
 
 .col-right{
-    // border: 1px solid red;
     height: 100%;
     margin-left: 4em;
     flex-direction: column;
@@ -186,20 +180,12 @@ main{
 
 	.splatter{
     position: relative;
-    /* top: 25em; */
     bottom: -24em;
     right: -4em;
-    /* height: 70%; */
     z-index: -1;
     filter: invert(95%);
     -webkit-filter: invert(95%);
-		// position: absolute;
-		// top: 60em;
-		// right: 0em;
-		// height: 70%;
-		// z-index: -1;
-		// filter: invert(95%);
-		// -webkit-filter: invert(95%);
+
 	}
 	
 
@@ -211,7 +197,6 @@ main{
 	
 
 		.section-header{
-			// border: 1px solid black;
 			margin-bottom: 2em;
 
 			@include bp-1{
@@ -255,39 +240,10 @@ main{
 	}
 }
 
-// .section{
-// 	height:200px;
-// }
 
 
 
 
-	// background-color: gray;
+
+
 	
-	// .col{
-	// 	border: 1px solid black;
-	// 	width: 50%;
-	// 	height: 100%;
-	// }
-
-
-// .col1{
-	// 	flex-direction: column;
-	// 	align-items: flex-start;
-
-	// 	.img1{
-	// 		margin-top: 1em;
-	// 	}
-
-	// 	.stacked-img-div{
-	// 		flex-direction: column;
-	// 	}
-
-	// 	.two-image-div{
-	// 		margin-top:1em;
-
-	// 		.img3{
-	// 			margin-left:10px;
-	// 		}
-
-	// 	}

@@ -9,7 +9,6 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  max-width: 2100px;
   width: 100%;
   overflow-y: scroll;
   font-family: "Montserrat", sans-serif; }

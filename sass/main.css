@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid black; }
+
+h1, h2 {
+  text-transform: uppercase; }
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+header {
+  background-image: url("../assets/.HERO 1.jpg.icloud");
+  flex-direction: column;
+  height: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  header .text-container {
+    flex-direction: column; }
+    header .text-container h1 {
+      color: #de041c;
+      font-size: 7em;
+      font-weight: 900;
+      letter-spacing: -10px;
+      font-size: 7em;
+      font-weight: 900;
+      letter-spacing: -10px;
+      text-shadow: 4px 3px 14px #000000b8; }
+    header .text-container h2 {
+      color: #fff;
+      font-size: 2.8em;
+      font-weight: 900;
+      letter-spacing: -2px; }
+    header .text-container p {
+      color: white;
+      width: 61%;
+      margin-top: 1em;
+      text-align: center; }
+
+/*# sourceMappingURL=main.css.map */

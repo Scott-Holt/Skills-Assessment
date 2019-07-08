@@ -1,3 +1,6 @@
-$(document).ready(function() {
-  // write your scripts here
-});
+// $(document).ready(function () {
+
+// });
+
+
+console.log('hi');

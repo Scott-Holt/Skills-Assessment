@@ -1,6 +1,6 @@
-Started my process by setting up all my files and just making a general outline of how I would approach this layout.
+I Started my process by setting up all my files and just making a general outline of how I would approach this layout.
 
-Started coding the HTML and CSS
+Then started coding the HTML and CSS
 
 The biggest task for me was the cluster of images and how to lay those out properly. After a few different attempts and with the help of flexbox, I was able to lay out the images as needed. Then proceeded to add a few break points for some responsive design. 
 
